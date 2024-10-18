@@ -2,7 +2,7 @@
 Final project done in collaboration with @vinothnk
 
 # INTRODUCTION
-The Brazilian Olist E-Commerce Dataset is a comprehensive dataset provided by Olist, a marketplace platform in Brazil. This dataset is highly valuable for exploring various aspects of e-commerce transactions, customer behaviors, seller performance and delivery in the Brazilian market.This dataset contains 100,000 records across various marketplaces for orders recorded between 2016-2018. 
+The Brazilian Olist E-Commerce Dataset is a comprehensive dataset provided by Olist, a marketplace platform in Brazil. This dataset is highly valuable for exploring various aspects of e-commerce transactions, customer behaviors, seller performance and delivery in the Brazilian market. This dataset contains 100,000 records across various marketplaces for orders recorded between 2016-2018. 
 
 # Potential Use Cases
 Customer Segmentation
