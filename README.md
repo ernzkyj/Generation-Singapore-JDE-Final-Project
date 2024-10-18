@@ -1,5 +1,5 @@
 # Generation-Singapore-JDE-Final-Project
-# JDE-Final-Project
+Final project done in collaboration with @vinothnk
 
 # INTRODUCTION
 The Brazilian Olist E-Commerce Dataset is a comprehensive dataset provided by Olist, a marketplace platform in Brazil. This dataset is highly valuable for exploring various aspects of e-commerce transactions, customer behaviors, seller performance and delivery in the Brazilian market.This dataset contains 100,000 records across various marketplaces  for orders recorded between 2016-2018. 
@@ -22,9 +22,7 @@ Delivery Pipeline Analysis
 # ETL - Microsoft Azure
 ![image](https://github.com/user-attachments/assets/025fb016-d776-4de6-92bb-f25158c57373)
 
-My group decided to utilize Microsoft Azure services for our ETL project. We first created storage containers to pull the data from github and store. The data was in csv format.
-After which, we mounted the container onto DataBricks platform so that we will be able to access the files for data transformation.
-In DataBricks, we used pySpark to clean the data and get it ready for analysis. After transformation, we returned the cleaned files into a data lake as a parquet file. 
+My group decided to utilize Microsoft Azure services for our ETL project. We first created storage containers to pull the data from github and store. The data was in csv format. After which, we mounted the container onto DataBricks platform so that we will be able to access the files for data transformation.In DataBricks, we used pySpark to clean the data and get it ready for analysis. After transformation, we returned the cleaned files into a data lake as a parquet file. 
 Why parquet files? Parquet's columnar storage and efficient compression makes it well-suited for analytical queries that only need to access specific columns.
 
 After which, we will be able to query the data using Microsoft Synapse Analytics if we want some quick answers from the data. We also were able to connect the data to Power BI for our visualizations
