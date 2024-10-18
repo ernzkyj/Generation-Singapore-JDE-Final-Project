@@ -36,7 +36,7 @@ The snowflake schema consists of one fact table that is connected to many dimens
 
 # Problem Statement
 - Analyze the Olist e-commerce dataset to identify key factors affecting customer satisfaction, sales performance, and operational efficiency. 
-- Provide actionable insights to optimize customer experience, streamline order processing, and improve overall profitability."
+- Provide actionable insights to optimize customer experience, streamline order processing, and improve overall profitability.
 
 # OPERATIONS ANALYSIS
 ![image](https://github.com/user-attachments/assets/18912f52-f2f3-4a63-8aa2-aade24c1adf5)
@@ -65,16 +65,15 @@ Sales Trends Over Time​:​
 
 Customer Segmentation:​​
 - Customers are segmented according to their purchase history into ‘Very Frequent’ , ‘Frequent’ , ‘Moderate’ and ‘Occasional’​​
-  - Action: Tailor marketing strategies for each customer segment. Offer loyalty programs or exclusive discounts for ‘Very Frequent’ and ‘Frequent’ customers​. Re-engage with ‘Moderate’ and ‘Occasional’ customers     
-    through personalized offers or follow-up communication.​​
+- Action: Tailor marketing strategies for each customer segment. Offer loyalty programs or exclusive discounts for ‘Very Frequent’ and ‘Frequent’ customers​. Re-engage with ‘Moderate’ and ‘Occasional’ customers through personalized offers or follow-up communication.​​
 
 ​Top Categories By Revenue and Average Order Value:​​
 - These bar charts show top ten categories by revenue. And average order value​
-  - Action: Prioritize stocking and promoting these products. Invest in marketing campaigns tailored to these top categories to boost sales further​
+- Action: Prioritize stocking and promoting these products. Invest in marketing campaigns tailored to these top categories to boost sales further​
 
 ​Low-Performing Products:​​
 - The Price Vs Freight matrix highlights products whose freight cost is more than the actual cost of the products​​
-  - Action: Consider discontinuing such products or exploring ways to reduce shipping costs to increase profit margins.​
+- Action: Consider discontinuing such products or exploring ways to reduce shipping costs to increase profit margins.​
 
 
 # CUSTOMER SATISFACTION & ORDERS ANALYSIS​
@@ -82,18 +81,18 @@ Customer Segmentation:​​
 ![image](https://github.com/user-attachments/assets/7bf9ab19-0c3c-42a7-9d6b-2e28f0b7d922)
 
 There is a direct relationship between Review and delay in delivery. Customers are generally happier when the products are delivered on time.​
-  - 4.62 % of orders (5.21K Orders) are delivered out of time. 95.38% Orders are delivered within the estimated time​
-  - 26.25% of sellers have at least delayed one order this has direct implication on the product review. ​
+- 4.62 % of orders (5.21K Orders) are delivered out of time. 95.38% Orders are delivered within the estimated time​
+- 26.25% of sellers have at least delayed one order this has direct implication on the product review. ​
 - Proposed Action: Find what is causing the delay in delivery ​
 
 ​Only 0.63 % of total orders are cancelled and that is not significant when compared to the volume of orders. ​
-  - Customers are less likely to cancel the orders once it is placed which shows high customer satisfaction  when it comes to OLIST.​
+- Customers are less likely to cancel the orders once it is placed which shows high customer satisfaction  when it comes to OLIST.​
 
 Close to 75% of orders are coming from three Cities ,Sao Paulo , Rio De Janeiro and Minas Gerais​
-  - Sao Paulo , Rio De Janeiro and Minas Gerais  are the top three richest and populous states in Brazil). ​
-  - While RJ and MG have almost same number of orders, delay in delivery is higher in RJ. ​
+- Sao Paulo , Rio De Janeiro and Minas Gerais  are the top three richest and populous states in Brazil). ​
+- While RJ and MG have almost same number of orders, delay in delivery is higher in RJ. ​
 - Proposed Action: Analyse the cause of delay in order delivery to RJ. Also devise strategies to reach out to more customers in other cities, by conducting sales, 
-                   offering promotions etc. as there are other similar cities like  RJ and MG in Brazil in terms of population ​
+  offering promotions etc. as there are other similar cities like  RJ and MG in Brazil in terms of population ​
 
 
 # ORDERS PIPELINE ANALYSIS
@@ -102,15 +101,15 @@ Close to 75% of orders are coming from three Cities ,Sao Paulo , Rio De Janeiro 
 
 # Time taken from warehouse to logistics partner
 - On average, higher score given due to earlier delivery date compared to estimated date​.
-    - review score 1 took 4.16 days to deliver ​
-    - review score 5 took 2.37 days to deliver ​
+- review score 1 took 4.16 days to deliver ​
+- review score 5 took 2.37 days to deliver ​
 
  - Recommendations: ​
-   - Optimize warehouse layout to minimize travel time.​
-        - identify which specific product categories are frequently ordered and place them together​
-   - Implement batch picking or zone picking​
-        - batch picking: collecting all required items for multiple orders​
-        - zone picking: pickers only pick items within their assigned zone​
+ - Optimize warehouse layout to minimize travel time.​
+ - identify which specific product categories are frequently ordered and place them together​
+ - Implement batch picking or zone picking​
+ - batch picking: collecting all required items for multiple orders​
+ - zone picking: pickers only pick items within their assigned zone​
 ​
 # Items Count
 - No of items to deliver with review score 5 = 2940​
@@ -119,10 +118,10 @@ Close to 75% of orders are coming from three Cities ,Sao Paulo , Rio De Janeiro 
 - Type of items with review score 1 were small appliances, computer accessories, garden tools.​
 
 - Recommendations: ​
-    - Last mile delivery improvements​
-      - crowdsource delivery partners for smaller items​
-      - partner with order fulfillment partner to increase efficiency​
-      - automate delivery notification​
+  - Last mile delivery improvements​
+  - crowdsource delivery partners for smaller items​
+  - partner with order fulfillment partner to increase efficiency​
+  - automate delivery notification​
 
 
 # CHALLENGES
